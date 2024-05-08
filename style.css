@@ -3,8 +3,32 @@ body {
 	font-family: "arial";
 h1 { 
 	text-align:center;
+
 .topnav {
-	<div class="topnav">
+   background-color: #333333;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: #fcba03;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+   .topnav a:hover {
+   background-color: #d6a009;
+   color: black;
+}
+
+.topnav a.active {
+   background-color: #04AA6D;
+   color: white;
+}
+
+
  
 
 
